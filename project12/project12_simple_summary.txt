@@ -1,0 +1,25 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Glucose   R-squared:                       0.069
+Model:                            OLS   Adj. R-squared:                  0.068
+Method:                 Least Squares   F-statistic:                     57.16
+Date:                Mon, 19 Oct 2026   Prob (F-statistic):           1.15e-13
+Time:                        18:16:57   Log-Likelihood:                -3722.6
+No. Observations:                 768   AIC:                             7449.
+Df Residuals:                     766   BIC:                             7459.
+Df Model:                           1                                         
+Covariance Type:            nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const         97.0802      3.341     29.058      0.000      90.522     103.639
+Age            0.7164      0.095      7.560      0.000       0.530       0.902
+==============================================================================
+Omnibus:                       15.129   Durbin-Watson:                   1.863
+Prob(Omnibus):                  0.001   Jarque-Bera (JB):               25.565
+Skew:                           0.110   Prob(JB):                     2.81e-06
+Kurtosis:                       3.866   Cond. No.                         106.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.

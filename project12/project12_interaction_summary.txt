@@ -1,0 +1,31 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Glucose   R-squared:                       0.117
+Model:                            OLS   Adj. R-squared:                  0.111
+Method:                 Least Squares   F-statistic:                     20.22
+Date:                Mon, 19 Oct 2026   Prob (F-statistic):           5.59e-19
+Time:                        18:16:57   Log-Likelihood:                -3702.4
+No. Observations:                 768   AIC:                             7417.
+Df Residuals:                     762   BIC:                             7445.
+Df Model:                           5                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const            55.5207     12.396      4.479      0.000      31.187      79.855
+Age               1.0965      0.366      2.998      0.003       0.379       1.814
+BMI               1.2389      0.398      3.111      0.002       0.457       2.021
+Pregnancies      -0.1252      0.389     -0.322      0.748      -0.889       0.639
+BloodPressure     0.0568      0.060      0.939      0.348      -0.062       0.175
+Age_BMI          -0.0133      0.012     -1.134      0.257      -0.036       0.010
+==============================================================================
+Omnibus:                       18.256   Durbin-Watson:                   1.835
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               37.037
+Skew:                          -0.004   Prob(JB):                     9.07e-09
+Kurtosis:                       4.076   Cond. No.                     1.32e+04
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
+[2] The condition number is large, 1.32e+04. This might indicate that there are
+strong multicollinearity or other numerical problems.

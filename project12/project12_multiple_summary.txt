@@ -1,0 +1,28 @@
+                            OLS Regression Results                            
+==============================================================================
+Dep. Variable:                Glucose   R-squared:                       0.116
+Model:                            OLS   Adj. R-squared:                  0.111
+Method:                 Least Squares   F-statistic:                     24.95
+Date:                Mon, 19 Oct 2026   Prob (F-statistic):           1.94e-19
+Time:                        18:16:57   Log-Likelihood:                -3703.1
+No. Observations:                 768   AIC:                             7416.
+Df Residuals:                     763   BIC:                             7439.
+Df Model:                           4                                         
+Covariance Type:            nonrobust                                         
+=================================================================================
+                    coef    std err          t      P>|t|      [0.025      0.975]
+---------------------------------------------------------------------------------
+const            67.9226      5.829     11.653      0.000      56.480      79.365
+Age               0.7020      0.113      6.237      0.000       0.481       0.923
+BMI               0.8180      0.144      5.682      0.000       0.535       1.101
+Pregnancies      -0.1884      0.385     -0.489      0.625      -0.944       0.568
+BloodPressure     0.0606      0.060      1.004      0.316      -0.058       0.179
+==============================================================================
+Omnibus:                       18.987   Durbin-Watson:                   1.835
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):               39.267
+Skew:                          -0.010   Prob(JB):                     2.97e-09
+Kurtosis:                       4.108   Cond. No.                         457.
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
